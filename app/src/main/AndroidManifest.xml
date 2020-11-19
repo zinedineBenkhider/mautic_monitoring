@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mautic_mobile">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".activities.email_detail.EmailDetailActivity"></activity>
+        <activity
+            android:name=".activities.home.MainActivity"
+            android:label="Mautic mobile"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.campaign_detail.CampaignDetailActivity"
+            android:label="Campaign detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.contact_detail.ActivityContactDetail"
+            android:label="Contact detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.login.LoginActivity"
+            android:label="Login page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.asset_detail.ActivityAssetDetail"
+            android:label="Asset detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.form_detail.FormDetailActivity"
+            android:label="Submissions"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

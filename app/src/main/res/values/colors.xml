@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2F4977</color>
+    <color name="colorPrimaryDark">#EAEDF1</color>
+    <color name="white">#FFFFFF</color>
+    <color name="color_icon">#3E5EFF</color>
+    <color name="color_pie_negative_part">#FF4E41</color>
+    <color name="color_pie_positive_part">#4CAF50</color>
+    <color name="color_bar_unique_download">#065397</color>
+    <color name="color_bar_all_download">#122557</color>
+    <color name="color_labels">#7E7B7B</color>
+</resources>
